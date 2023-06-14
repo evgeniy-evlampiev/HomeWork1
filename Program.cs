@@ -25,22 +25,42 @@
 // 22 3 9 -> 22
 
 
-Console.Write("Введите второе число: ");
-int num1 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите первое число: ");
+// int num1 = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите второе число: ");
-int num2 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите второе число: ");
+// int num2 = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите третье число: ");
-int num3 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите третье число: ");
+// int num3 = int.Parse(Console.ReadLine()!);
 
-int Max = num1;
-if(Max < num2)
+// int Max = num1;
+// if(Max < num2)
+// {
+//     Max = num2;
+// }
+// if(Max < num3)
+// {
+//     Max = num3;
+// }
+// Console.WriteLine($"Максимальное число из трех чисел: {Max}");
+
+
+
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
+
+Console.Write("Введите число: ");
+int num = int.Parse(Console.ReadLine()!);
+if(num % 2 == 0)
 {
-    Max = num2;
+    Console.WriteLine($"{num} - четное число");
 }
-if(Max < num3)
+else
 {
-    Max = num3;
+    Console.WriteLine($"{num} - нечетное число");
 }
-Console.WriteLine(Max);
