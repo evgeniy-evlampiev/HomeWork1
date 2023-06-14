@@ -73,11 +73,11 @@
 // 8 -> 2, 4, 6, 8
 
 
-Console.Write("Введите число ");
-int N = int.Parse(Console.ReadLine());
-int N_min = 1;
-while (N_min <= N){
-    if(N_min % 2 == 0)
-    {Console.Write($"{N_min} ");}
-        N_min += 1; 
-}
+// Console.Write("Введите число ");
+// int N = int.Parse(Console.ReadLine());
+// int N_min = 1;
+// while (N_min <= N){
+//     if(N_min % 2 == 0)
+//     {Console.Write($"{N_min} ");}
+//         N_min += 1; 
+// }
